@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.section {
+  width: 30%;
+  margin: auto;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 100%;
+}
+
+.label {
+  font-weight: 600;
+}
+
+select {
+  margin: 1rem 0;
+}
+
+.card-header-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  flex: 1;
+  border: 1px solid white;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+.btn1 {
+  background-color: #006280;
+}
+.btn2 {
+  background-color: #8000ff;
+}
+.btn3 {
+  background-color: #ff0080;
+}
+
+.btn1:hover {
+  background-color: #005873;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #7300e6;
+  cursor: pointer;
+}
+
+.btn3:hover {
+  background-color: #e60073;
+  cursor: pointer;
+}
+
+.winner {
+  color: #008000;
+}
+
+.loser {
+  color: #ff0000;
+}

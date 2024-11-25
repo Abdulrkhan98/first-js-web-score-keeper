@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="card">
+        <figure class="image">
+          <img
+            src="https://www.advancedsciencenews.com/wp-content/uploads/2021/08/lisa-keffer-i0kB5B9J8Ds-unsplash.jpg"
+          />
+        </figure>
+        <div class="card-header">
+          <p class="card-header-title">Ping Pong Score Keeper</p>
+          <button class="card-header-icon" aria-label="more options">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <h1 class="title is-1">
+              <span id="P1Display"> 0 </span> to
+              <span id="P2Display">0</span>
+            </h1>
+            <div class="subtitle">Use the button below to keep score</div>
+
+            <label for="Playto" class="label is-large is-inline"
+              >Playing to</label
+            >
+            <select name="" id="playto">
+              <option value="3">1</option>
+              <option value="3">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <footer class="card-footer">
+          <button id="P1Button" class="btn1">+1 player one</button>
+          <button id="P2Button" class="btn2">+1 player two</button>
+          <button id="reset" class="btn3">Reset</button>
+        </footer>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
